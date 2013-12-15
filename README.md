@@ -1,32 +1,37 @@
-Skeleton Cookbook
+Hipache Cookbook
 =================
-
-This is a testable skeleton cookbook designed for you or your organization to
-fork and modify appropriately. The cookbook comes with everything you need to
-develop infrastructure code with Chef and feel confident about it.
 
 Requirements
 ------------
 
 ### Platform:
 
-*List supported platforms here*
+Ubuntu 10.0.4LTS, 12.0.4LTS
 
 ### Cookbooks:
 
-*List cookbook dependencies here*
+[nodejs](https://github.com/darron/nodejs-cookbook)
 
 Attributes
 ----------
 
-*List attributes here*
+```
+default['hipache']['url']
+default['hipache']['config_dir']
+default['hipache']['config_file']
+default['hipache']['config_file_path']
+default['hipache']['upstart_file']
+default['hipache']['upstart_file_path']
+default['hipache']['logrotate_file']
+default['hipache']['logrotate_file_path']
+```
 
 Recipes
 -------
 
-### skeleton::default
+### hipache::default
 
-*Explain what the recipe does here*
+Installs enbables and starts Hipache using configuration files from [octohost](https://github.com/octohost/octohost)
 
 Testing
 -------
@@ -37,7 +42,7 @@ The cookbook provides the following Rake tasks for testing:
 
     rake integration                  # Alias for kitchen:all
     rake kitchen:all                  # Run all test instances
-    rake kitchen:default-centos-64    # Run default-centos-64 test instance
+    rake kitchen:default-ubuntu-1004  # Run default-ubuntu-1004 test instance
     rake kitchen:default-ubuntu-1204  # Run default-ubuntu-1204 test instance
     rake lint                         # Lint Chef cookbooks
     rake rubocop                      # Run rubocop tests
@@ -49,9 +54,9 @@ The cookbook provides the following Rake tasks for testing:
 License and Author
 ------------------
 
-Author:: YOUR_NAME (YOUR_EMAIL)
+Author:: Darron Froese (darron@froese.org)
 
-Copyright:: YEAR, YOUR_NAME
+Copyright:: 2013, Darron Froese
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
