@@ -29,9 +29,9 @@ describe 'hipache::default' do
     expect(chef_run).to enable_service('hipache')
   end
 
-  # it 'starts the hipache service' do
-  #   expect(chef_run).to start_service('hipache')
-  # end
+  it 'starts the hipache service' do
+    expect(chef_run).to start_service('hipache')
+  end
 
   before do
     stub_command("hipache -h | grep 'hipache server'").and_return(true)
