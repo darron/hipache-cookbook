@@ -36,7 +36,7 @@ Installs enbables and starts Hipache using configuration files from [octohost](h
 Testing
 -------
 
-[![Build Status](https://travis-ci.org/mlafeldt/skeleton-cookbook.png?branch=master)](https://travis-ci.org/mlafeldt/skeleton-cookbook)
+![Build Status](https://travis-ci.org/darron/hipache-cookbook.png?branch=master)](https://travis-ci.org/darron/hipache-cookbook)
 
 The cookbook provides the following Rake tasks for testing:
 
