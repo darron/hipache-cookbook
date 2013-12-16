@@ -31,7 +31,7 @@ Recipes
 
 ### hipache::default
 
-Installs enbables and starts Hipache using configuration files from [octohost](https://github.com/octohost/octohost)
+Installs enables and starts Hipache using configuration files from [octohost](https://github.com/octohost/octohost)
 
 Testing
 -------
