@@ -36,7 +36,7 @@ Installs enables and starts Hipache using configuration files from [octohost](ht
 Testing
 -------
 
-![Build Status](https://travis-ci.org/darron/hipache-cookbook.png?branch=master)](https://travis-ci.org/darron/hipache-cookbook)
+[![Build Status](https://travis-ci.org/darron/hipache-cookbook.png?branch=master)](https://travis-ci.org/darron/hipache-cookbook)
 
 The cookbook provides the following Rake tasks for testing:
 
